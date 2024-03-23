@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{ margin: 0;
+    padding: 0; 
+}
+
+     body{
+       font-family: "roboto",sans-serif; 
+       color: black;
+       
+    }
+    .logo{
+        width: 110px;
+    }
+    .bgNavegation{
+        background-color: rgba(133, 115, 115, 0.692);
+    }
+  
+
+.mainIndex{
+    .card-body{
+        background-color: rgba(133, 115, 115, 0.692);
+   
+    }
+    .lorem{
+        color: #110E0E;
+    }
+
+
+ }
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+h2{
+    color:#110E0E ;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+h6 h5{
+    color:240, 237, 237;
+}
+p{
+    color:#F0EDED;
+}
+footer{
+    background-color: rgba(133, 115, 115, 0.692);
+    .fab.fa-whatsapp{
+        color: #25D366;
+    }
+    .fab.fa-facebook-f{
+        color: #1877F2; 
+      }
+      .fab.fa-linkedin{
+        color: #0077B5; 
+      }
+      
+          .fab.fa-instagram {
+            background-image: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #8a3ab9, #746fd9, #427de3, #53a7ea, #6cc7ec);
+        
+            
+            color: transparent;
+          }
+          
+        }
+        
+    
+      .fab.fa-google{
+        color: #4285F4; 
+      }
+      .fab.fa-twitter {
+        color: #1DA1F2; 
+      }
+       
+      
+      .botonInSesion{
+        background-color:#C2B9B9;
+      }
+      .spanFooter{
+        color:#F0EDED;
+      }
+      .copyR{
+        color:#F0EDED ;
+      }
+    
+.btn{
+            background-color:#C2B9B9; 
+            color: #ffffff;
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 16px; 
+        }
+            .btn:hover {
+            background-color: #8d8080; 
+          }
+          .nav-link {
+  color:#F0EDED; 
+  transition: color 0.3s;}
+  .nav-link:hover{
+    color: #110E0E;
+  }
+
+  .mainContacto{
+    h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    h2{
+        color:#110E0E ;
+        font-size: 2.5rem;
+        font-weight: 500;
+    
+    }
+    p{
+      color: #110E0E;
+    }
+
+   
+.listaContacto{ list-style-type: none;
+.listaItem{
+  padding: 10px;
+}               
+}
+
+  }
+  .mainNosotros{
+    p{
+      color: #110E0E;
+    }
+  }
+  .mainHistoria{
+    p{
+      color: #110E0E;
+    }
+  }
+  .mainGaleria{
+    p{
+      color: #110E0E;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .nav-item {
+        text-align: center; 
+    }
+
+    .logo {
+        width: 80px; 
+    }
+
+    .navbar-collapse {
+        background-color: #333;
+    }
+
+    .mainContacto {
+        padding: 10px; 
+     .maps1{
+           display: none;
+    }}
+
+    .listaContacto {
+        list-style: none; 
+    
+       
+      }
+
+    .listaItem {
+        margin-bottom: 10px; 
+    }
+    h2{ text-align: center;}
+   
+}
