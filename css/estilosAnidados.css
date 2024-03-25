@@ -3,33 +3,33 @@
     padding: 0; 
 }
 
-     body{
+body{
        font-family: "roboto",sans-serif; 
        color: black;
        
     }
-    .logo{
+  .logo{
         width: 110px;
     }
-    .bgNavegation{
+  .bgNavegation{
         background-color: rgba(133, 115, 115, 0.692);
     }
   
 
-.mainIndex{
+  .mainIndex{
     .card-body{
         background-color: rgba(133, 115, 115, 0.692);
    
     }
-    .lorem{
+  .lorem{
         color: #110E0E;
     }
 
  }
 
- @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   
-  .iframeYoutube{ max-width: 768px;}
+ .iframeYoutube{ max-width: 768px;}
 
   }
  
@@ -54,42 +54,37 @@ footer{
     .fab.fa-whatsapp{
         color: #25D366;
     }
-    .fab.fa-facebook-f{
+  .fab.fa-facebook-f{
         color: #1877F2; 
       }
-      .fab.fa-linkedin{
+  .fab.fa-linkedin{
         color: #0077B5; 
       }
       
-          .fab.fa-instagram {
-            background-image: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #8a3ab9, #746fd9, #427de3, #53a7ea, #6cc7ec);
-        
-            
-            color: transparent;
+  .fab.fa-instagram {
+    color: #C13584;
           }
           
         }
         
     
-      .fab.fa-google{
+  .fab.fa-google{
         color: #4285F4; 
       }
-      .fab.fa-twitter {
+  .fab.fa-twitter {
         color: #1DA1F2; 
       }
-       
-      
-      .botonInSesion{
+  .botonInSesion{
         background-color:#C2B9B9;
       }
-      .spanFooter{
+  .spanFooter{
         color:#F0EDED;
       }
-      .copyR{
+  .copyR{
         color:#F0EDED ;
       }
     
-.btn{
+  .btn{
             background-color:#C2B9B9; 
             color: #ffffff;
             padding: 10px 20px; 
@@ -98,10 +93,10 @@ footer{
             cursor: pointer; 
             font-size: 16px; 
         }
-            .btn:hover {
+  .btn:hover {
             background-color: #8d8080; 
           }
-          .nav-link {
+  .nav-link {
   color:#F0EDED; 
   transition: color 0.3s;}
   .nav-link:hover{
@@ -131,49 +126,49 @@ footer{
 }
 
   }
-  .mainNosotros{
+.mainNosotros{
     p{
       color: #110E0E;
     }
   }
-  .mainHistoria{
+.mainHistoria{
     p{
       color: #110E0E;
     }
   }
-  .mainGaleria{
+.mainGaleria{
     p{
       color: #110E0E;
     }
   }
-  @media only screen and (max-width: 768px) {
-    .nav-item {
+@media only screen and (max-width: 768px) {
+.nav-item {
         text-align: center; 
     }
 
-    .logo {
+.logo {
         width: 80px; 
     }
 
-    .navbar-collapse {
+.navbar-collapse {
         background-color: #333;
     }
 
-    .mainContacto {
+.mainContacto {
         padding: 10px; 
-     .maps1{
+.maps1{
            display: none;
     }}
 
-    .listaContacto {
+.listaContacto {
         list-style: none; 
     
        
       }
 
-    .listaItem {
+.listaItem {
         margin-bottom: 10px; 
     }
-    h2{ text-align: center;}
+h2{ text-align: center;}
    
 }
