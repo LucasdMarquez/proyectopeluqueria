@@ -6,19 +6,35 @@
 body{
        font-family: "roboto",sans-serif; 
        color: black;
-       
+       background-color: #eee;
     }
   .logo{
         width: 110px;
     }
   .bgNavegation{
-        background-color: rgba(133, 115, 115, 0.692);
+        background-color: #61075A
     }
   
 
   .mainIndex{
+    .card{ 
+      color: white;
+      position: relative;  
+           
+    }
+    .card::after{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      content: "";
+      background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      filter: blur(20px);
+      z-index: -1;
+      width: 70%;
+      height: 90%;
+    }
     .card-body{
-        background-color: rgba(133, 115, 115, 0.692);
+        background-color:#24031E;
    
     }
   .lorem{
@@ -43,14 +59,14 @@ h2{
     font-weight: 500;
 
 }
-h6 h5{
-    color:240, 237, 237;
+h6, h5{
+    color:rgba(255,255,255,.55);
 }
 p{
     color:#F0EDED;
 }
 footer{
-    background-color: rgba(133, 115, 115, 0.692);
+    background-color:#61075A;
     .fab.fa-whatsapp{
         color: #25D366;
     }
@@ -64,11 +80,7 @@ footer{
   .fab.fa-instagram {
     color: #C13584;
           }
-          
-        }
-        
-    
-  .fab.fa-google{
+     .fab.fa-google{
         color: #4285F4; 
       }
   .fab.fa-twitter {
@@ -82,10 +94,14 @@ footer{
       }
   .copyR{
         color:#F0EDED ;
-      }
+      }      
+        }
+        
+    
+ 
     
   .btn{
-            background-color:#C2B9B9; 
+            background-color: #786176; 
             color: #ffffff;
             padding: 10px 20px; 
             border: none; 
@@ -94,7 +110,7 @@ footer{
             font-size: 16px; 
         }
   .btn:hover {
-            background-color: #8d8080; 
+            background-color:#C2B9B9 ; 
           }
   .nav-link {
   color:#F0EDED; 
@@ -130,16 +146,70 @@ footer{
     p{
       color: #110E0E;
     }
+    .tarjeta{
+      color: white;
+      position: relative;
+     
+     }
+     .tarjeta::after{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      content: "";
+      background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      filter: blur(15px);
+      z-index: -1;
+      width: 70%;
+      height: 100%;
+     }
   }
 .mainHistoria{
     p{
       color: #110E0E;
     }
+
+    .tarjeta{
+      color: white;
+      position: relative;
+     
+     }
+     .tarjeta::after{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      content: "";
+       background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      filter: blur(30px);
+      z-index: -1;
+      width: 100%;
+      height: 90%;
+     }
+
+
+
+  
   }
 .mainGaleria{
     p{
       color: #110E0E;
     }
+ .tarjeta{
+  color: white;
+  position: relative;
+ 
+ }
+ .tarjeta::after{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  filter: blur(30px);
+  z-index: -1;
+  width: 70%;
+  height: 90%;
+ }
+  
   }
 @media only screen and (max-width: 768px) {
 .nav-item {
@@ -172,3 +242,4 @@ footer{
 h2{ text-align: center;}
    
 }
+
