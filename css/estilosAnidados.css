@@ -43,11 +43,6 @@ body{
 
  }
 
-@media only screen and (max-width: 768px) {
-  
- .iframeYoutube{ max-width: 768px;}
-
-  }
  
 h1{
     font-size: 3rem;
