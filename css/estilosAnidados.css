@@ -15,6 +15,24 @@ body{
         background-color: #61075A
     }
   
+header{
+  @media only screen and (min-width: 768px){
+.tituloHeader{
+    display:none;
+    }
+  }
+  
+@media only screen and (max-width: 768px){
+ .tituloHeader{
+      display: inline;
+      font-size: x-large;
+      color: #C2B9B9 ;
+    background-color: #0077B5;
+    }
+}
+   
+  }
+
 
   .mainIndex{
     .card{ 
@@ -37,14 +55,52 @@ body{
         background-color:#24031E;
    
     }
-  .lorem{
-        color: #110E0E;
-    }
 
- }
+    .btn{
+      background-color: #786176; 
+      color: #ffffff;
+      padding: 10px 20px; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+      font-size: 16px; 
+  }
+.btn:hover {
+      background-color:#C2B9B9 ; 
+    }
+.nav-link {
+color:#F0EDED; 
+transition: color 0.3s;}
+.nav-link:hover{
+color: #110E0E;
+}
+
+.parrafo{
+    color:#817b7b;
+}
+.divTituloHeader{
+  display: none;
+    
+}
+ 
 
  
-h1{
+@media only screen and (max-width: 768px){
+  .titulo{
+    display: none;
+  }
+  .parrafo{
+    color:#eee;
+    background-color: #817b7b6b;
+    border-radius: 10px;
+  }
+ 
+}
+
+}
+
+ 
+h1 {
     font-size: 3rem;
     font-weight: 700;
 }
@@ -58,7 +114,7 @@ h6, h5{
     color:rgba(255,255,255,.55);
 }
 p{
-    color:#F0EDED;
+  color: #110E0E;
 }
 footer{
     background-color:#61075A;
@@ -90,12 +146,10 @@ footer{
   .copyR{
         color:#F0EDED ;
       }      
-        }
-        
-    
- 
-    
-  .btn{
+    p{
+      color:#F0EDED
+    }    
+    .btn{
             background-color: #786176; 
             color: #ffffff;
             padding: 10px 20px; 
@@ -113,6 +167,14 @@ footer{
   .nav-link:hover{
     color: #110E0E;
   }
+  
+  
+  }
+        
+    
+ 
+    
+  
 
   .mainContacto{
     h1{
