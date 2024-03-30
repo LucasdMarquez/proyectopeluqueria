@@ -26,7 +26,7 @@ header{
    }}}
   .mainIndex{
     .card{ 
-      color: white;
+      color: rgb(240, 240, 240);
       position: relative;}
     .card::after{
       position: absolute;
@@ -39,7 +39,7 @@ header{
       width: 70%;
       height: 90%;}
     .card-body{
-        background-color:#24031E;}
+      background-color:#24031E;}
     .btn{
       background-color: #786176; 
       color: #ffffff;
@@ -48,28 +48,32 @@ header{
       border-radius: 5px; 
       cursor: pointer; 
       font-size: 16px; }
-.btn:hover {
+    .btn:hover {
       background-color:#C2B9B9;}
-.nav-link {
-color:#F0EDED; 
-transition: color 0.3s;}
-.nav-link:hover{
-color: #110E0E;}
-.parrafo{
-    color:#817b7b;}
-.divTituloHeader{
-  display: none;}
+    .nav-link {
+      color:#F0EDED; 
+      transition: color 0.3s;}
+    .nav-link:hover{
+      color: #110E0E;}
+    .parrafo{
+       color:#eee;
+      background-color: #b3a0b13b ;
+      border-radius:1px;}
+    .titulo{
+      background-color: #b3a0b13b;
+    }}
 @media only screen and (max-width: 767px){
   .titulo{
     display: none;}
   .parrafo{
     color:#eee;
     background-color: #817b7b6b;
-    border-radius: 10px;}
+    border-radius: 10px;
+    font-size: small;}
   .containerCard{
     margin-bottom: 10px;
   }
-  }}
+  }
 
 h1 {
     font-size: 3rem;
@@ -121,18 +125,27 @@ footer{
     color: #110E0E;}}
         
 .mainContacto{
-    h1{
-        font-size: 3rem;
-        font-weight: 700;}
+   
     h2{
         color:#110E0E ;
         font-size: 2.5rem;
         font-weight: 500;}
     p{
       color: #110E0E;}
-.listaContacto{ list-style-type: none;
-  .listaItem{
-            padding: 10px;}}}
+.listaContacto{
+          list-style-type: none;
+.listaItem{
+            padding: 10px;}}
+ .btn{ background-color: #786176; 
+  color: #ffffff;
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px;}
+  .btn:hover {
+    background-color:#C2B9B9;}
+          }
 .mainNosotros{
     p{
       color: #110E0E;}
@@ -149,9 +162,7 @@ footer{
       z-index: -1;
       width: 70%;
       height: 100%;}
-    @media  screen and (max-width: 768px;){
-      
-    }
+  
     }
 .mainHistoria{
     p{
