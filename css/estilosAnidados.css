@@ -7,7 +7,7 @@
 body {
   font-family: "roboto", sans-serif;
   color: black;
-  background-color: #eee;
+  background-image: linear-gradient(to right bottom, #ae7eb1, #a67aa8, #9e769f, #967397, #8e6f8e);
 }
 
 .logo {
@@ -90,7 +90,7 @@ span {
   top: 0px;
   left: 0px;
   content: "";
-  background: linear-gradient(to right, #ff0099, #493240);
+  background: linear-gradient(to right, #ff0099, #e9dbe4);
   filter: blur(20px);
   z-index: -1;
   width: 70%;
@@ -146,6 +146,11 @@ span {
   .containerCard {
     margin-bottom: 10px;
   }
+  .carousel-main {
+    width: 60vh;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 footer {
   background-color: #61075A;
@@ -177,19 +182,19 @@ footer .fab.fa-twitter {
 footer .fab.redes:hover {
   transform: translateY(-5px);
 }
-footer .botonInSesion {
+footer  .botonInSesion {
   background-color: #C2B9B9;
 }
 footer .spanFooter {
   color: #F0EDED;
 }
-footer .copyR {
+footer  .copyR {
   color: #F0EDED;
 }
-footer p {
+footer  p {
   color: #F0EDED;
 }
-footer .btn {
+footer  .btn {
   background-color: #786176;
   color: #ffffff;
   padding: 10px 20px;
@@ -198,14 +203,14 @@ footer .btn {
   cursor: pointer;
   font-size: 16px;
 }
-footer .btn:hover {
+footer  .btn:hover {
   background-color: #C2B9B9;
 }
-footer .nav-link {
+footer  .nav-link {
   color: #F0EDED;
   transition: color 0.3s;
 }
-footer .nav-link:hover {
+footer  .nav-link:hover {
   color: #110E0E;
 }
 
@@ -248,7 +253,7 @@ footer .nav-link:hover {
   top: 0px;
   left: 0px;
   content: "";
-  background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ff0099, #e9dbe4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: blur(15px);
   z-index: -1;
   width: 70%;
@@ -267,7 +272,7 @@ footer .nav-link:hover {
   top: 0px;
   left: 0px;
   content: "";
-  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ad5389, #e9dbe4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: blur(30px);
   z-index: -1;
   width: 100%;
@@ -286,7 +291,7 @@ footer .nav-link:hover {
   top: 0px;
   left: 0px;
   content: "";
-  background: linear-gradient(to right, #ff0099, #493240);
+  background: linear-gradient(to right, #ff0099, #e9dbe4);
   filter: blur(30px);
   z-index: -1;
   width: 70%;

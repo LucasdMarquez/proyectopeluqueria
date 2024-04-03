@@ -7,7 +7,7 @@
       top: $px-0;
       left: $px-0;
       content: "";
-      background: linear-gradient(to right, #ff0099, #493240); 
+      background: linear-gradient(to right, #ff0099,#e9dbe4); 
       filter: blur($px-20);
       z-index: $espacio-1;
       width: $t-70por;
@@ -57,4 +57,11 @@
   .containerCard{
     margin-bottom: $px-10;
   }
+  
+  .carousel-main{
+    width: 60vh;
+    flex-direction: column;
+    justify-content: center;
   }
+
+}
