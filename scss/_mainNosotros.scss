@@ -1,0 +1,19 @@
+
+.mainNosotros{
+    p{
+      color:$color-fuente-p;}
+    .tarjeta{
+      color: $color-white;
+      position: relative;}
+     .tarjeta::after{
+      position: absolute;
+      top: $px-0;
+      left: $px-0;
+      content: "";
+      background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      filter: blur(15px);
+      z-index: $espacio-1;
+      width: $t-70por;
+      height: $t-100por;}
+  
+    }

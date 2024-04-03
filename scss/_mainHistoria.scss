@@ -1,0 +1,16 @@
+.mainHistoria{
+    p{
+      color:$color-fuente-p;}
+    .tarjeta{
+      color: $color-white;
+      position: relative;}
+     .tarjeta::after{
+      position: absolute;
+      top: $px-0;
+      left: $px-0;
+      content: "";
+       background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      filter: blur($px-30);
+      z-index: $espacio-1;
+      width: $t-100por;
+      height:$t-90por;}}

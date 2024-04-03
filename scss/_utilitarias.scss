@@ -1,0 +1,44 @@
+h1 {
+    font-size: $rem-3;
+    font-weight: $fw-700;}
+h2{
+    color:$color-fuente-p ;
+    font-size: $rem-2p5;
+    font-weight: $fw-500;}
+h6, h5{
+    color:rgba(255,255,255,.55);}
+p{
+  color:$color-fuente-p;}
+
+  @media only screen and (max-width: 768px) {
+    .nav-item {
+            text-align: center; 
+        }
+    
+    .logo {
+            width: 80px; 
+        }
+    
+    .navbar-collapse {
+            background-color: #333;
+        }
+    
+    .mainContacto {
+            padding: $px-10; 
+    .maps1{
+               display: none;
+        }}
+    
+    .listaContacto {
+            list-style: none; 
+        
+           
+          }
+    
+    .listaItem {
+            margin-bottom: $px-10; 
+        }
+    h2{ text-align: center;}
+       
+    }
+    

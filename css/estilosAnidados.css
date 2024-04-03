@@ -1,232 +1,302 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{ margin: 0;
-    padding: 0; 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-       font-family: "roboto",sans-serif; 
-       color: black;
-       background-color: #eee;}
-  .logo{
-        width: 110px;
-    }
-  .bgNavegation{
-        background-color: #61075A
-    }
-  
-header{
-  @media only screen and (min-width: 768px){
-.tituloHeader{
-    display:none;}} 
-@media only screen and (max-width: 767px){
- .tituloHeader{
-      display: inline;
-      font-size: x-large;
-      color: #C2B9B9 ;
-   }}}
-  .mainIndex{
-    .card{ 
-      color: rgb(240, 240, 240);
-      position: relative;}
-    .card::after{
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      content: "";
-      background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      filter: blur(20px);
-      z-index: -1;
-      width: 70%;
-      height: 90%;}
-    .card-body{
-      background-color:#24031E;}
-    .btn{
-      background-color: #786176; 
-      color: #ffffff;
-      padding: 10px 20px; 
-      border: none; 
-      border-radius: 5px; 
-      cursor: pointer; 
-      font-size: 16px; }
-    .btn:hover {
-      background-color:#C2B9B9;}
-    .nav-link {
-      color:#F0EDED; 
-      transition: color 0.3s;}
-    .nav-link:hover{
-      color: #110E0E;}
-    .parrafo{
-       color:#eee;
-      background-color: #b3a0b13b ;
-      border-radius:1px;}
-    .titulo{
-      background-color: #b3a0b13b;
-    }}
-@media only screen and (max-width: 767px){
-  .titulo{
-    display: none;}
-  .parrafo{
-    color:#eee;
-    background-color: #817b7b6b;
-    border-radius: 10px;
-    font-size: small;}
-  .containerCard{
-    margin-bottom: 10px;
-  }
-  }
+body {
+  font-family: "roboto", sans-serif;
+  color: black;
+  background-color: #eee;
+}
+
+.logo {
+  width: 110px;
+}
+
+.bgNavegation {
+  background-color: #61075A;
+}
 
 h1 {
-    font-size: 3rem;
-    font-weight: 700;}
-h2{
-    color:#110E0E ;
-    font-size: 2.5rem;
-    font-weight: 500;}
-h6, h5{
-    color:rgba(255,255,255,.55);}
-p{
-  color: #110E0E;}
-footer{
-    background-color:#61075A;
-    .fab.fa-whatsapp{
-        color: #25D366;}
-  .fab.fa-facebook-f{
-        color: #1877F2; }
-  .fab.fa-linkedin{
-        color: #0077B5; }
-  .fab.fa-instagram {
-    color: #C13584;}
-     .fab.fa-google{
-        color: #4285F4;}
-  .fab.fa-twitter {
-        color: #1DA1F2;}
-  .botonInSesion{
-        background-color:#C2B9B9;}
-  .spanFooter{
-        color:#F0EDED;}
-  .copyR{
-        color:#F0EDED;}      
-    p{
-      color:#F0EDED}    
-    .btn{
-            background-color: #786176; 
-            color: #ffffff;
-            padding: 10px 20px; 
-            border: none; 
-            border-radius: 5px; 
-            cursor: pointer; 
-            font-size: 16px;}
-  .btn:hover {
-            background-color:#C2B9B9;}
-  .nav-link {
-  color:#F0EDED; 
-  transition: color 0.3s;}
-  .nav-link:hover{
-    color: #110E0E;}}
-        
-.mainContacto{
-   
-    h2{
-        color:#110E0E ;
-        font-size: 2.5rem;
-        font-weight: 500;}
-    p{
-      color: #110E0E;}
-.listaContacto{
-          list-style-type: none;
-.listaItem{
-            padding: 10px;}}
- .btn{ background-color: #786176; 
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: #110E0E;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h6, h5 {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+p {
+  color: #110E0E;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    text-align: center;
+  }
+  .logo {
+    width: 80px;
+  }
+  .navbar-collapse {
+    background-color: #333;
+  }
+  .mainContacto {
+    padding: 10px;
+  }
+  .mainContacto .maps1 {
+    display: none;
+  }
+  .listaContacto {
+    list-style: none;
+  }
+  .listaItem {
+    margin-bottom: 10px;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  header .tituloHeader {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header .tituloHeader {
+    display: inline;
+    font-size: x-large;
+    color: #C2B9B9;
+  }
+}
+
+.mainIndex .card {
+  color: rgb(240, 240, 240);
+  position: relative;
+}
+.mainIndex .card::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: linear-gradient(to right, #ff0099, #493240);
+  filter: blur(20px);
+  z-index: -1;
+  width: 70%;
+  height: 90%;
+}
+.mainIndex .card-body {
+  background-color: #24031E;
+}
+.mainIndex .btn {
+  background-color: #786176;
   color: #ffffff;
-  padding: 10px 20px; 
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  font-size: 16px;}
-  .btn:hover {
-    background-color:#C2B9B9;}
-          }
-.mainNosotros{
-    p{
-      color: #110E0E;}
-    .tarjeta{
-      color: white;
-      position: relative;}
-     .tarjeta::after{
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      content: "";
-      background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      filter: blur(15px);
-      z-index: -1;
-      width: 70%;
-      height: 100%;}
-  
-    }
-.mainHistoria{
-    p{
-      color: #110E0E;}
-    .tarjeta{
-      color: white;
-      position: relative;}
-     .tarjeta::after{
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      content: "";
-       background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      filter: blur(30px);
-      z-index: -1;
-      width: 100%;
-      height: 90%;}}
-.mainGaleria{
-    p{
-      color: #110E0E;}
- .tarjeta{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.mainIndex .btn:hover {
+  background-color: #C2B9B9;
+}
+.mainIndex .nav-link {
+  color: #F0EDED;
+  transition: color 0.3s;
+}
+.mainIndex .nav-link:hover {
+  color: #110E0E;
+}
+.mainIndex .parrafo {
+  color: #eee;
+  background-color: rgba(129, 123, 123, 0.4196078431);
+  border-radius: 1px;
+}
+.mainIndex .titulo {
+  background-color: rgba(129, 123, 123, 0.4196078431);
+}
+.mainIndex .targetIndex {
+  transition: transform 0.3s;
+}
+.mainIndex .targetIndex:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 767px) {
+  .titulo {
+    display: none;
+  }
+  .parrafo {
+    color: #eee;
+    background-color: rgba(129, 123, 123, 0.4196078431);
+    border-radius: 10px;
+    font-size: small;
+  }
+  .containerCard {
+    margin-bottom: 10px;
+  }
+}
+footer {
+  background-color: #61075A;
+}
+footer .fab.fa-whatsapp {
+  color: #25D366;
+  transition: transform 0.2s;
+}
+footer .fab.fa-facebook-f {
+  color: #1877F2;
+  transition: transform 0.2s;
+}
+footer .fab.fa-linkedin {
+  color: #0077B5;
+  transition: transform 0.2s;
+}
+footer .fab.fa-instagram {
+  color: #C13584;
+  transition: transform 0.2s;
+}
+footer .fab.fa-google {
+  color: #4285F4;
+  transition: transform 0.2s;
+}
+footer .fab.fa-twitter {
+  color: #1DA1F2;
+  transition: transform 0.2s;
+}
+footer .fab.redes:hover {
+  transform: translateY(-5px);
+}
+footer .botonInSesion {
+  background-color: #C2B9B9;
+}
+footer .spanFooter {
+  color: #F0EDED;
+}
+footer .copyR {
+  color: #F0EDED;
+}
+footer p {
+  color: #F0EDED;
+}
+footer .btn {
+  background-color: #786176;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+footer .btn:hover {
+  background-color: #C2B9B9;
+}
+footer .nav-link {
+  color: #F0EDED;
+  transition: color 0.3s;
+}
+footer .nav-link:hover {
+  color: #110E0E;
+}
+
+.mainContacto h2 {
+  color: #110E0E;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.mainContacto p {
+  color: #110E0E;
+}
+.mainContacto .listaContacto {
+  list-style-type: none;
+}
+.mainContacto .listaContacto .listaItem {
+  padding: 10px;
+}
+.mainContacto .btn {
+  background-color: #786176;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.mainContacto .btn:hover {
+  background-color: #C2B9B9;
+}
+
+.mainNosotros p {
+  color: #110E0E;
+}
+.mainNosotros .tarjeta {
   color: white;
-  position: relative;}
- .tarjeta::after{
+  position: relative;
+}
+.mainNosotros .tarjeta::after {
   position: absolute;
   top: 0px;
   left: 0px;
   content: "";
   background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  filter: blur(15px);
+  z-index: -1;
+  width: 70%;
+  height: 100%;
+}
+
+.mainHistoria p {
+  color: #110E0E;
+}
+.mainHistoria .tarjeta {
+  color: white;
+  position: relative;
+}
+.mainHistoria .tarjeta::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  filter: blur(30px);
+  z-index: -1;
+  width: 100%;
+  height: 90%;
+}
+
+.mainGaleria p {
+  color: #110E0E;
+}
+.mainGaleria .tarjeta {
+  color: white;
+  position: relative;
+}
+.mainGaleria .tarjeta::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: linear-gradient(to right, #ff0099, #493240);
   filter: blur(30px);
   z-index: -1;
   width: 70%;
-  height: 90%;}}
-
-  /*corregir esta media query*/
-@media only screen and (max-width: 768px) {
-.nav-item {
-        text-align: center; 
-    }
-
-.logo {
-        width: 80px; 
-    }
-
-.navbar-collapse {
-        background-color: #333;
-    }
-
-.mainContacto {
-        padding: 10px; 
-.maps1{
-           display: none;
-    }}
-
-.listaContacto {
-        list-style: none; 
-    
-       
-      }
-
-.listaItem {
-        margin-bottom: 10px; 
-    }
-h2{ text-align: center;}
-   
+  height: 90%;
 }
 
+.targetImg {
+  transition: transform 0.3s;
+}
+
+.targetImg:hover {
+  transform: scale(1.1);
+}
+
+/* me falta el mixin.scss (1 misin o extend)
+1 mapa y usarlo map_get*/
+
+/*# sourceMappingURL=estilosAnidados.css.map */

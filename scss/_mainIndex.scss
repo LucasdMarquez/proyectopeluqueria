@@ -1,0 +1,60 @@
+.mainIndex{
+     .card{ 
+      color: rgb(240, 240, 240);
+      position: relative;}
+    .card::after{
+      position: absolute;
+      top: $px-0;
+      left: $px-0;
+      content: "";
+      background: linear-gradient(to right, #ff0099, #493240); 
+      filter: blur($px-20);
+      z-index: $espacio-1;
+      width: $t-70por;
+      height: $t-90por;}
+    .card-body{
+      background-color:#24031E;}
+    .btn{
+      background-color: $color-btn-bg; 
+      color: $color-f;
+      padding: $px-10 $px-20; 
+      border: none; 
+      border-radius: $px-5; 
+      cursor: pointer; 
+      font-size: $px-16; }
+    .btn:hover {
+      background-color:$color-fuentes-bg;}
+    .nav-link {
+      color:$color-secundario; 
+      transition: color 0.3s;}
+    .nav-link:hover{
+      color: $color-fuente-p;}
+    .parrafo{
+      color:$color-eee;
+      background-color:$color-bg-principal  ;
+      border-radius:1px;}
+    .titulo{
+      background-color:$color-bg-principal ;} 
+
+      .targetIndex{
+        transition: transform 0.3s;
+      }
+      .targetIndex:hover{
+        transform: scale(1.1)
+      }
+
+
+    }
+    
+@media only screen and (max-width: 767px){
+  .titulo{
+    display: none;}
+  .parrafo{
+    color:$color-eee;
+    background-color: $color-bg-principal;
+    border-radius: $px-10;
+    font-size: small;}
+  .containerCard{
+    margin-bottom: $px-10;
+  }
+  }

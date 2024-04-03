@@ -1,0 +1,10 @@
+header{
+    @media only screen and (min-width: 768px){
+  .tituloHeader{
+      display:none;}} 
+  @media only screen and (max-width: 767px){
+   .tituloHeader{
+        display: inline;
+        font-size: x-large;
+        color:$color-fuentes-bg ;
+     }}}

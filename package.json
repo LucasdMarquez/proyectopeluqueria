@@ -1,0 +1,19 @@
+{
+  "name": "lucas_marquez_53805_primerpreentrega",
+  "version": "1.0.0",
+  "description": "proyecto peluqueria coder desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/LucasdMarquez/segundapreentrega.git)"
+  },
+  "author": "Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "sass": "^1.72.0"
+  }
+}

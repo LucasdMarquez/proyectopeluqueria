@@ -1,0 +1,22 @@
+.mainContacto{
+   
+    h2{
+        color:$color-fuente-p ;
+        font-size: $rem-2p5;
+        font-weight: $fw-500;}
+    p{
+      color: $color-fuente-p;}
+.listaContacto{
+          list-style-type: none;
+.listaItem{
+            padding:$px-10}}
+ .btn{ background-color: $color-btn-bg; 
+  color: $color-f;
+  padding: $px-10 $px-20; 
+  border: none; 
+  border-radius: $px-5; 
+  cursor: pointer; 
+  font-size:$px-16;}
+  .btn:hover {
+    background-color:$color-fuentes-bg;}
+          }
