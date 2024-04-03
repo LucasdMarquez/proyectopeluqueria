@@ -156,7 +156,6 @@ footer {
   background-color: #61075A;
 }
 footer .fab.fa-whatsapp {
-  
   font-size: 40px;
   color: #25D366;
   transition: transform 0.2s;
@@ -188,19 +187,19 @@ footer .fab.fa-twitter {
 footer .fab.redes:hover {
   transform: translateY(-5px);
 }
-footer  .botonInSesion {
+footer .fab.redes:hover .botonInSesion {
   background-color: #C2B9B9;
 }
-footer  .spanFooter {
+footer .fab.redes:hover .spanFooter {
   color: #F0EDED;
 }
-footer  .copyR {
+footer .fab.redes:hover .copyR {
   color: #F0EDED;
 }
-footer  p {
+footer .fab.redes:hover p {
   color: #F0EDED;
 }
-footer  .btn {
+footer .fab.redes:hover .btn {
   background-color: #786176;
   color: #ffffff;
   padding: 10px 20px;
@@ -209,15 +208,26 @@ footer  .btn {
   cursor: pointer;
   font-size: 16px;
 }
-footer  .btn:hover {
+footer .fab.redes:hover .btn:hover {
   background-color: #C2B9B9;
 }
-footer  .nav-link {
+footer .fab.redes:hover .nav-link {
   color: #F0EDED;
   transition: color 0.3s;
 }
-footer  .nav-link:hover {
+footer .fab.redes:hover .nav-link:hover {
   color: #110E0E;
+}
+@media only screen and (max-width: 767px) {
+  footer .fab.fa-whatsapp {
+    font-size: 40px;
+    color: #25D366;
+    transition: transform 0.2s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
 }
 
 .mainContacto h2 {

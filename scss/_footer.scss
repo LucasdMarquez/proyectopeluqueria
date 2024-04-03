@@ -55,4 +55,15 @@ footer{
   transition: color 0.3s;}
   .nav-link:hover{
     color:$color-fuente-p;}}
+ @media only screen and (max-width:767px){
+  .fab.fa-whatsapp{
+    font-size: 40px;
+    color: #25D366;
+    transition:$transform-02;
+    position: fixed;
+    bottom: $px-20;  
+    right: $px-20; 
+    z-index: 1000; 
+  }
+    }
   }
