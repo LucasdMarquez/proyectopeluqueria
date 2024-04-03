@@ -9,6 +9,10 @@ h6, h5{
     color:rgba(255,255,255,.55);}
 p{
   color:$color-fuente-p;}
+  span{
+    color: $color-principal;
+    font-weight: 500;
+  }
 
   @media only screen and (max-width: 768px) {
     .nav-item {

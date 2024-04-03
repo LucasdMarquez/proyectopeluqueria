@@ -37,6 +37,11 @@ p {
   color: #110E0E;
 }
 
+span {
+  color: #61075A;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 768px) {
   .nav-item {
     text-align: center;
