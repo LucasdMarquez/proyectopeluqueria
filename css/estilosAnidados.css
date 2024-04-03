@@ -187,19 +187,19 @@ footer .fab.fa-twitter {
 footer .fab.redes:hover {
   transform: translateY(-5px);
 }
-footer .fab.redes:hover .botonInSesion {
+footer .botonInSesion {
   background-color: #C2B9B9;
 }
-footer .fab.redes:hover .spanFooter {
+footer .spanFooter {
   color: #F0EDED;
 }
-footer .fab.redes:hover .copyR {
+footer .copyR {
   color: #F0EDED;
 }
-footer .fab.redes:hover p {
+footer p {
   color: #F0EDED;
 }
-footer .fab.redes:hover .btn {
+footer .btn {
   background-color: #786176;
   color: #ffffff;
   padding: 10px 20px;
@@ -208,14 +208,14 @@ footer .fab.redes:hover .btn {
   cursor: pointer;
   font-size: 16px;
 }
-footer .fab.redes:hover .btn:hover {
+footer .btn:hover {
   background-color: #C2B9B9;
 }
-footer .fab.redes:hover .nav-link {
+footer .nav-link {
   color: #F0EDED;
   transition: color 0.3s;
 }
-footer .fab.redes:hover .nav-link:hover {
+footer .nav-link:hover {
   color: #110E0E;
 }
 @media only screen and (max-width: 767px) {
