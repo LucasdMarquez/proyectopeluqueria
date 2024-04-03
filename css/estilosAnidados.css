@@ -156,8 +156,14 @@ footer {
   background-color: #61075A;
 }
 footer .fab.fa-whatsapp {
+  
+  font-size: 40px;
   color: #25D366;
   transition: transform 0.2s;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 footer .fab.fa-facebook-f {
   color: #1877F2;
@@ -185,7 +191,7 @@ footer .fab.redes:hover {
 footer  .botonInSesion {
   background-color: #C2B9B9;
 }
-footer .spanFooter {
+footer  .spanFooter {
   color: #F0EDED;
 }
 footer  .copyR {

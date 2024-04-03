@@ -1,8 +1,14 @@
 footer{
     background-color:$color-principal;
     .fab.fa-whatsapp{
+        font-size: 40px;
         color: #25D366;
-        transition:$transform-02;}
+        transition:$transform-02;
+        position: fixed;
+        bottom: $px-20;  
+        right: $px-20; 
+        z-index: 1000; 
+      }
   .fab.fa-facebook-f{
         color: #1877F2; 
         transition: $transform-02;
