@@ -149,11 +149,6 @@ span {
   .containerCard {
     margin-bottom: 10px;
   }
-  .carousel-main {
-    width: 60vh;
-    flex-direction: column;
-    justify-content: center;
-  }
 }
 footer {
   background-color: #61075A;
@@ -318,13 +313,13 @@ footer .nav-link:hover {
 }
 
 .targetImg {
-  width: 100%; /* Asegura que la imagen se ajuste al contenedor */
-  display: block; /* Elimina el espacio extra bajo la imagen */
+  width: 100%; 
+  display: block; 
   transition: box-shadow 0.5s ease;
 }
 
 .targetImg:hover {
-  box-shadow: 0 0 0 5px #e0c0d7; /* Ajusta el tamaño y color del "borde" aquí */
+  box-shadow: 0 0 0 5px #e0c0d7; 
 }
 
 /* me falta el mixin.scss (1 misin o extend)
