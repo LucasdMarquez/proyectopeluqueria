@@ -1,0 +1,17 @@
+.mainError404{
+    .btn{
+    background-color: $color-btn-bg; 
+    color: $color-f;
+    padding: $px-10 $px-20; 
+    border: none; 
+    border-radius: $px-5; 
+    cursor: pointer; 
+    font-size: $px-16; }
+.btn:hover {
+           background-color:$color-fuentes-bg;}
+h1{
+    font-size: $rem-3;
+    font-weight: $fw-700;
+}
+
+        }

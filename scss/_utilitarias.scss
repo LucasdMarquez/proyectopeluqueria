@@ -11,37 +11,15 @@ p{
   color:$color-fuente-p;}
   span{
     color: $color-principal;
-    font-weight: 500;
-  }
-
+    font-weight: 500;}
   @media only screen and (max-width: 768px) {
-    .nav-item {
-            text-align: center; 
-        }
-    
-    .logo {
-            width: 80px; 
-        }
-    
-    .navbar-collapse {
-            background-color: #333;
-        }
-    
-    .mainContacto {
-            padding: $px-10; 
-    .maps1{
-               display: none;
-        }}
-    
-    .listaContacto {
-            list-style: none; 
-        
-           
-          }
-    
-    .listaItem {
-            margin-bottom: $px-10; 
-        }
+    .nav-item { text-align: center;  }
+    .logo { width: 80px;}
+    .navbar-collapse {background-color: #333;}    
+    .mainContacto { padding: $px-10; 
+        .maps1{display: none;}}
+    .listaContacto {list-style: none;}
+    .listaItem { margin-bottom: $px-10; }
     h2{ text-align: center;}
        
     }
