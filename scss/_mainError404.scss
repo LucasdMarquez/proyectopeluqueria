@@ -18,6 +18,9 @@
 
 
 }
+/*.background-img ::before{
+    position: absolute;
+}*/
 .message {
     position: relative;
     z-index: 2; /* Asegura que el mensaje y el botón están sobre la imagen */
@@ -27,14 +30,20 @@
     transform: translate(-50%, -50%);
     color: white;
     filter: none;
-}
-h1{
+.h1error404{
+    position: relative;
+    filter: none;
     font-size: $rem-3;
     font-weight: $fw-700;
+    z-index: 2;
+    color: $color-principal;
 }
+
+}
+
 .btn{
     flex-direction: row;
-    justify-content: center;
+    justify-content:flex-end;
     background-color:$color-btn-bg; 
     color: $color-f;
     padding: $px-10 $px-20; 

@@ -341,6 +341,9 @@ footer .nav-link:hover {
   z-index: 1; /* Detrás del contenido */
 }
 
+/*.background-img ::before{
+    position: absolute;
+}*/
 .message {
   position: relative;
   z-index: 2; /* Asegura que el mensaje y el botón están sobre la imagen */
@@ -351,15 +354,18 @@ footer .nav-link:hover {
   color: white;
   filter: none;
 }
-
-h1 {
+.message .h1error404 {
+  position: relative;
+  filter: none;
   font-size: 3rem;
   font-weight: 700;
+  z-index: 2;
+  color: #61075A;
 }
 
 .btn {
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: #786176;
   color: #ffffff;
   padding: 10px 20px;
