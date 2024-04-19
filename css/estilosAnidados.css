@@ -354,7 +354,7 @@ footer .nav-link:hover {
   background-color: #C2B9B9;
 }
 
-.errorTitle {
+.error-text {
   -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.86, 0, 0.07, 1) both;
   animation: tracking-in-contract-bck 1s cubic-bezier(0.86, 0, 0.07, 1) both;
 } /* ----------------------------------------------
