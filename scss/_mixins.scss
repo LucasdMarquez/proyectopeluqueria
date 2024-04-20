@@ -1,0 +1,31 @@
+
+@mixin tarjeta($color-white, $px-0, $espacio-1, $t-70por, $t-90por) {
+    color: $color-white;
+    position: relative;
+  
+    &::after {
+      position: absolute;
+      top: $px-0;
+      left: $px-0;
+      content: "";
+      background: linear-gradient(to right, #ff0099, #e9dbe4);
+      filter: blur($px-30);
+      z-index: $espacio-1;
+      width: $t-70por;
+      height: $t-90por;
+    }
+  }
+  
+  .tarjeta {
+    @include tarjeta(white, 0px, -1, 70%, 90%);
+  }
+  
+  .targetImg {
+    width: 100%;
+    display: block;
+    transition: box-shadow .5s ease;
+  
+    &:hover {
+      box-shadow: 0 0 0 5px #e0c0d7;
+    }
+  }
